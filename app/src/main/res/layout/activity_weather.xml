@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Weather"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginLeft="20dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_city"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99cc00"
+            android:layout_gravity="left"
+            android:text="City : "
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_showdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99cc00"
+            android:textSize="22sp"
+            android:text="Temprature : "
+            android:layout_gravity="left"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_windspeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99cc00"
+            android:textSize="22sp"
+            android:text="Wind Speed : "
+            android:layout_gravity="left"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_winddir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99cc00"
+            android:textSize="22sp"
+            android:text="Wind Direction : "
+            android:layout_gravity="left"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_cloudy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99cc00"
+            android:textSize="22sp"
+            android:text="Cloudy : "
+            android:layout_gravity="left"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_sunset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99cc00"
+            android:textSize="22sp"
+            android:text="Sunset : "
+            android:layout_gravity="left"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_sunrise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99cc00"
+            android:textSize="22sp"
+            android:text="Sunrise : "
+            android:layout_gravity="left"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#99cc00"
+            android:textSize="22sp"
+            android:text="DateTime : "
+            android:layout_gravity="left"
+            android:textStyle="bold" />
+</LinearLayout>
